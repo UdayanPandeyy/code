@@ -1,0 +1,23 @@
+class A
+{
+public static void main(string args[])
+{
+  system.out.println("plese enter the sentance");
+  scanner s=new scanner(system.in);
+  string word=s.nextline();
+  char[] c=word.tocharArray();
+  char cc[]=new char[80];
+  for(i=0;i<c.length;i++)
+{
+  if(i%2==0)
+{
+   string s1=c[i].toUppercase();
+else
+{
+  string s2=c[i].toLowercase();
+}
+for(i=0;i<c.length;i++)
+{
+     system.out.println("s1"+"s2");
+}
+}

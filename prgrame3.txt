@@ -1,0 +1,2 @@
+select name,total amount,continent,accounts from accounts 
+where accounts > 300000 or totalamounts >2500000.
